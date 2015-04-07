@@ -1,0 +1,54 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>litigation.nyc</title>
+  <meta charset='UTF-8'/>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
+  <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,700|Open+Sans:300,400' rel='stylesheet' type='text/css'>
+  <link href='{{site.baseurl}}/assets/css/styles.css' rel='stylesheet' />
+</head>
+
+<body>
+
+<div id="navigation_bar">
+   <div class="outer_container">
+    <div class="inner_container">
+
+      <a href="#introduction"><h4>litigation.nyc</h4></a>
+      <ul class="nav">
+        {% for rule in site.federal_rules %}
+          <li class="rule_square"><a href="#rule{{ rule.id }}" title="View Play {{ rule.id }}: {{ rule.title }}">{{ rule.nav_title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="introduction">
+  <div class="outer_container">
+    <div class="inner_container">
+      {% capture introduction %}{% include introduction.md %}{% endcapture %}
+      {{ introduction | markdownify }}
+    </div>
+  </div>
+</div>
+
+<div id="rules" class="outer_container">
+  {% for rule in site.federal_rules %}
+    <div class="inner_container">
+      <a class="anchor_offset" id="rule{{ rule.id }}"></a>
+      <h2>{{ rule.title }}</h2>
+      {{ rule.output }}
+    </div>
+  {% endfor %}
+</div>
+
+<script src='{{site.baseurl}}/assets/js/jquery-1.11.1.min.js'></script>
+<script src='{{site.baseurl}}/assets/js/scrollspy.js'></script>
+<script src='{{site.baseurl}}/assets/js/site.js'></script>
+<script id="_fed_an_js_tag" type="text/javascript" src="{{site.baseurl}}/assets/js/federated-analytics.all.min.js?agency=GSA&sub-agency=OGP"></script>
+</body>
+</html>

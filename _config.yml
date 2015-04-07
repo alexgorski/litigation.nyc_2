@@ -1,0 +1,10 @@
+permalink: pretty
+markdown: rdiscount
+highlighter: pygments
+url: http://playbook.cio.gov
+
+collections:
+  - federal_rules
+
+sass:
+    sass_dir: assets/_sass
