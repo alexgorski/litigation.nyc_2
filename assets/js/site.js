@@ -48,4 +48,6 @@ $(function(){
     }
   });
 
+  $('li').css('list-style-type', 'none');
+
 });
