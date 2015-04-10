@@ -49,5 +49,12 @@ $(function(){
   });
 
   $('li').css('list-style-type', 'none');
+  $('div.federal_rule').toggle();
+  
+  $('.full_title').click(function(){
+    var selector = 'div#' + $(this).attr("pointer");
+    console.log($(this).attr("pointer"));
+    $(selector).toggle();
+  });
 
 });

@@ -4,7 +4,11 @@ highlighter: pygments
 url: http://playbook.cio.gov
 
 collections:
-  - federal_rules
+  - civil_rules
+  - admirality_rules
+  - criminal_rules
+  - patent_rules
+  - division_of_business_rules
 
 sass:
     sass_dir: assets/_sass
