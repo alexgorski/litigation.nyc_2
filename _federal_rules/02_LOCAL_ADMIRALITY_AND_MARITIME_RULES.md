@@ -1,7 +1,7 @@
 ---
 id: 2
 title: Admirality and Maritime Rules
-nav_title: Admirality and Maritime
+nav_title: Maritime
 ---
 
 ###Local Admiralty Rule A.1. Application of Rules

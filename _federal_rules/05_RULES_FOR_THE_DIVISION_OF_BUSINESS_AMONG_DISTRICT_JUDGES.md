@@ -1,7 +1,7 @@
 ---
 id: 5
 title: Division of Business Among District Judges
-nav_title: Division of Business
+nav_title: Division
 ---
 
 ###SOUTHERN DISTRICT

@@ -57,4 +57,9 @@ $(function(){
     $(selector).toggle();
   });
 
+  $('#go').click(function(){
+    var txt = $('#search-criteria').val();
+    console.log(txt);
+    $(".outer_container").find('div:contains("'+txt+'")').show();
+  });
 });

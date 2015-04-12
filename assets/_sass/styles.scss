@@ -27,10 +27,6 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     line-height: 28px;
   }
 
-  body#techfar_landing_page {
-    background: $atlantic_blue;
-  }
-
   a {
     color: inherit;
     font-family: inherit;
@@ -234,6 +230,16 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     font-family: $serif;
     .outer_container {
       padding: 0 40px;
+    }
+
+    div.input-group {
+      padding: 20px 50px;
+      margin-top: 0;
+      font-size: 20px;
+      color: $white;
+      font-weight: lighter;
+      line-height: 20px;
+      display: inline-block;
     }
 
     h4 {

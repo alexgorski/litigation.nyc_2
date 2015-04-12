@@ -16,12 +16,22 @@
 <div id="navigation_bar">
    <div class="outer_container">
     <div class="inner_container">
+      <span style="display:inline;float:left;"><a href="#introduction"><h4>litigation.nyc</h4></a></span>
+      <span style="display:inline;float:left;">
+        <div class="input-group">
+          <input type="text" class="form-control" id="search-criteria" placeholder="Search for...">
+          <span class="input-group-btn">
+            <button class="btn btn-default" id="go" type="button">Go!</button>
+          </span>
+        </div>
+      </span>
 
-      <a href="#introduction"><h4>litigation.nyc</h4></a>
-      <ul class="nav">
-        {% for rule in site.federal_rules %}
-          <li class="rule_square"><a href="#rule{{ rule.id }}" title="View Play {{ rule.id }}: {{ rule.title }}">{{ rule.nav_title }}</a></li>
-        {% endfor %}
+      <ul class="nav"> 
+        <li class="rule_square"><a href="#civil">Civil</a></li>
+        <li class="rule_square"><a href="#maritime">Maritime</a></li>
+        <li class="rule_square"><a href="#criminal">Criminal</a></li>
+        <li class="rule_square"><a href="#patent">Patent</a></li>
+        <li class="rule_square"><a href="#division">Division</a></li>
       </ul>
     </div>
   </div>
@@ -36,22 +46,13 @@
   </div>
 </div>
 
-<div id="rules" class="outer_container">
-  {% for rule in site.federal_rules %}
-    <div class="inner_container">
-      <a class="anchor_offset" id="rule{{ rule.id }}"></a>
-      <h2>{{ rule.title }}</h2>
-      {{ rule.output }}
-    </div>
-  {% endfor %}
-</div>
-
 <div id="civil_rules" class="outer_container">
+  <a class="anchor_offset" id="civil"></a>
   <h2>Joint Local Civil Rules</h2>
   {% for rule in site.civil_rules %}
     <div class="inner_container">
       <a class="full_title" pointer="{{ rule.id }}"><h3>{{ rule.full_title }}</h3></a>
-      <div class= "federal_rule" id="{{rule.id}}">
+      <div class="federal_rule" id="{{rule.id}}">
         {{ rule.output }}
       </div>
     </div>
@@ -59,11 +60,12 @@
 </div>
 
 <div id="admirality_rules" class="outer_container">
+  <a class="anchor_offset" id="maritime"></a>
   <h2>Local Admirality and Maritime Rules</h2>
   {% for rule in site.admirality_rules %}
     <div class="inner_container">
-      <a class="full_title" id="{{ rule.id }}"><h3>{{ rule.full_title }}</h3></a>
-      <div class= "federal_rule" id="{{rule.id}}">
+      <a class="full_title" pointer="{{ rule.id }}"><h3>{{ rule.full_title }}</h3></a>
+      <div class="federal_rule" id="{{rule.id}}">
         {{ rule.output }}
       </div>
     </div>
@@ -71,11 +73,12 @@
 </div>
 
 <div id="criminal_rules" class="outer_container">
+  <a class="anchor_offset" id="criminal"></a>
   <h2>Local Criminal Rules</h2>
   {% for rule in site.criminal_rules %}
     <div class="inner_container">
-      <a class="full_title" id="{{ rule.id }}"><h3>{{ rule.full_title }}</h3></a>
-      <div class= "federal_rule" id="{{rule.id}}">
+      <a class="full_title" pointer="{{ rule.id }}"><h3>{{ rule.full_title }}</h3></a>
+      <div class="federal_rule" id="{{rule.id}}">
         {{ rule.output }}
       </div>
     </div>
@@ -83,12 +86,12 @@
 </div>
 
 <div id="patent_rules" class="outer_container">
+  <a class="anchor_offset" id="patent"></a>
   <h2>Local Patent Rules</h2>
   {% for rule in site.patent_rules %}
     <div class="inner_container">
-      <a class="anchor_offset" id="rule{{ rule.id }}"></a>
-      <a class="full_title" id="{{ rule.id }}"><h3>{{ rule.full_title }}</h3></a>
-      <div class= "federal_rule" id="{{rule.id}}">
+      <a class="full_title" pointer="{{ rule.id }}"><h3>{{ rule.full_title }}</h3></a>
+      <div class="federal_rule" id="{{rule.id}}">
         {{ rule.output }}
       </div>
     </div>
@@ -96,12 +99,12 @@
 </div>
 
 <div id="division_of_business_rules" class="outer_container">
+  <a class="anchor_offset" id="division"></a>
   <h2>Rules For The Division Of Business Among District Judges</h2>
   {% for rule in site.division_of_business_rules %}
     <div class="inner_container">
-      <a class="anchor_offset" id="rule{{ rule.id }}"></a>
-      <a class="full_title" id="{{ rule.id }}"><h3>{{ rule.full_title }}</h3></a>
-      <div class= "federal_rule" id="{{rule.id}}">
+      <a class="full_title" pointer="{{ rule.id }}"><h3>{{ rule.full_title }}</h3></a>
+      <div class="federal_rule" id="{{rule.id}}">
         {{ rule.output }}
       </div>
     </div>
