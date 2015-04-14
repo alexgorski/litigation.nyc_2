@@ -129,6 +129,10 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
   }
 
+  .highlight { 
+    background-color: yellow; 
+  }
+
   .button {
     font-size: inherit;
     font-family: $sans-serif;
