@@ -79,13 +79,14 @@ the Manhattan Courthouse.
   * (ii) Hear and determine appeals from orders of a magistrate judge in cases
 that have not yet been assigned to a district judge.
 
-Rule 4. Civil Actions or Proceedings (Filing and Assignment)
+###Rule 4. Civil Actions or Proceedings (Filing and Assignment)
 (a) Filing with the Clerk.
 All civil actions and proceedings shall be numbered consecutively by year upon the filing of
 the first document in the case.
 When a complaint or the first document is filed in a civil action or proceeding, counsel shall
 accurately complete and file form JS44C-SDNY: Civil Court Cover Sheet, in triplicate, consistent
 with Rule 18 below.
+
 (b) Assignment by the Clerk by Lot.
  Each civil action and proceeding, except applications for leave to proceed in forma pauperis,
 upon being filed and each appeal from the bankruptcy court upon being docketed in this court shall
