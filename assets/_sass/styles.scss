@@ -328,6 +328,16 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
         padding: 16px 0;
         line-height: 16px;
       }
+
+      div.input-group {
+        padding: 16px 10px;
+        margin-top: 0;
+        font-size: 14px;
+        color: $white;
+        font-weight: lighter;
+        line-height: 14px;
+        display: inline-block;
+      }
     }
 
     @include media($slimmer) {

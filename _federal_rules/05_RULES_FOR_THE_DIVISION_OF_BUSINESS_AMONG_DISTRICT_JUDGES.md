@@ -110,6 +110,7 @@ Rule 6. Criminal Proceedings
 (a) Indictments designated for Manhattan may be returned by the grand jury in open court to
 the magistrate judge presiding in the criminal part. Indictments designated for White Plains may be
 returned by the grand jury to the magistrate judge presiding in the White Plains Courthouse.
+
 (b) Assignments.
 In a criminal case, after an indictment has been returned by the Grand Jury or a notice has
 been filed by the United States Attorney's Office of an intention to file an information upon the
@@ -156,14 +157,17 @@ When a motion for collateral relief under 28 U.S.C. § 2255 or an audita querell
 shall be assigned for all further proceedings to the judge to whom the underlying case was assigned.
 That judge may either act on the motion without responsive papers or advise the United States
 attorney of the date(s) when responsive papers are due.
+
 When a motion under Fed. R. Crim. P. 41(g) for the return of property seized in a criminal
 case is filed, it shall be assigned for all further proceedings to the judge to whom the underlying case
 was assigned. The judge may either act on the motion without responsive papers or advise the 
 United States attorney of the date(s) when responsive papers are due. Rule 41(g) motions that are
 filed after the related criminal case is closed, shall be opened as a new civil action, and all filings shall
 be docketed therein.
+
 If the judge to whom the underlying case was assigned is unable to entertain the motion, the
 motion shall be assigned by lot, or to the Chief Judge where appropriate.
+
 (b) State Convictions
 When a pro se petition under 28 U.S.C. § 2254 for collateral relief from a state conviction is
 filed, the Pro Se Office shall first ascertain whether the petition is properly filed and, if not, the Office
@@ -316,6 +320,7 @@ courthouse under these rules, it is sent to the Clerk for reassignment to a judg
 courthouse. If upon reassignment there is a dispute as to the proper place of holding court, it will
 be referred to the Assignment Committee for final determination. If the case is reassigned, it will be
 reassigned as if it were a new filing, but will retain its original case number.
+
 Rule 20. Removed Actions and Bankruptcy Matters
 Actions removed from a state court in New York County or Bronx County will be assigned
 to Manhattan. Actions removed from a state court in any of the other counties within the district
@@ -323,6 +328,7 @@ will be assigned to White Plains. In either case, the attorney for the defendant
 reassignment as provided in the section entitled Reassignment of Cases.
 Bankruptcy appeals from the White Plains and Poughkeepsie bankruptcy courts are also
 assigned to White Plains.
+
 Rule 21. Social Security Actions and Habeas Corpus Petitions
 Social security cases and petitions for habeas corpus relief
 under 28 U.S.C. § 2241 shall be assigned proportionately to all judges of the Court, whether
