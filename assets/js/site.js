@@ -63,6 +63,12 @@ $(function(){
     $(".outer_container").find('div:contains("'+txt+'")').show();
     $(".outer_container").highlight(txt);
   });
+
+  $('#search-criteria').keypress(function(e){
+    if(e.which == 13){//Enter key pressed
+      $('#go').click();//Trigger search button click event
+    }
+  });
 });
 
 jQuery.fn.highlight = function(pat) {
