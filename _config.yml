@@ -1,7 +1,7 @@
 permalink: pretty
 markdown: rdiscount
 highlighter: pygments
-url: http://playbook.cio.gov
+url: http://litigation.nyc
 
 collections:
   - federal_rules
